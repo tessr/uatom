@@ -1,4 +1,4 @@
-# uatom
+# uatom ⚛️
 
 There are 1,000,000 uatoms in an atom, a fact which I frequently forget and/or second-guess. 
 This repo contains a lot of programming to save myself a little bit of remembering.
