@@ -10,6 +10,10 @@ const divider float64 = 1000000
 
 func main() {
 	log.SetFlags(0)
+	if len(os.Args) != 2 {
+		log.Println("usage: atom [number of uatoms]")
+		os.Exit(1)
+	}
 
 	uatoms, err := strconv.ParseFloat(os.Args[1], 64)
 	if err != nil {
